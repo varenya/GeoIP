@@ -32,7 +32,7 @@ public class IPLocator{
 		GlobalWeather global=new GlobalWeather();
 		GlobalWeatherSoap weatherSoap=global.getGlobalWeatherSoap();
 		String cityXml=weatherSoap.getCitiesByCountry("India");
-		System.out.println(cityXml);
+	//	System.out.println(cityXml);
 		//System.out.println(temper);
 		DocumentBuilderFactory dbfac = DocumentBuilderFactory.newInstance();
         DocumentBuilder docBuilder;
